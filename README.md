@@ -1,1 +1,2 @@
-# cameinmyps4.github.io
+## welcome to oni:swordbase
+idk why i even need a read me yo
