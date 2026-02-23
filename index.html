@@ -1,10 +1,54 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My GitHub Website</title>
-  </head>
-  <body style="background-color:black; color:white; font-family:Arial;">
-    <h1>Hello world!</h1>
-    <p>This is my GitHub Pages site.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome!</title>
+  <!-- Redirect after 3 seconds to main.html -->
+  <meta http-equiv="refresh" content="3;url=main.html">
+  <!-- Load Source Sans Pro from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: 'Source Sans Pro', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      flex-direction: column;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    img {
+      max-width: 200px; /* adjust size as needed */
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 10px; /* optional: rounded corners */
+    }
+
+    h1 {
+      font-size: 2em;
+      margin: 0 0 10px 0;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Image above text -->
+  <img src="your-image.png" alt="Welcome Image">
+  
+  <div>
+    <h1>Welcome to MisterChief's Website!</h1>
+    <p>Redirecting you to the main site…</p>
+  </div>
+</body>
 </html>
