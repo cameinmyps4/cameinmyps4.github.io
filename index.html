@@ -1,7 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<h1>hi</h1>
-  </div>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>holyremix.com</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*dont fucking scroll or else*/
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e9e9e9;
+    color: #4d4d4d;
+}
+
+.hero {
+    height: 100vh;
+    height: 100dvh;              
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    column-gap: 4vw;
+    padding: 0 7vw;              
+}
+
+.text-side {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35em;
+}
+
+.line1 {
+    font-size: clamp(1rem, 1.8vw, 1.8rem);
+    font-weight: 400;
+    letter-spacing: 0.18em;
+    white-space: nowrap;
+    margin-bottom: 1.2vh;
+}
+
+.line2 {
+    font-size: clamp(2.6rem, 6vw, 6.5rem);
+    font-weight: 500;
+    line-height: 0.95;
+    letter-spacing: -0.03em;
+}
+
+.line3 {
+    font-size: clamp(2rem, 4.6vw, 4.8rem);
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+}
+
+.line3 span {
+    display: block;
+    margin-top: 0.15em;
+    font-weight: 300;
+    font-size: 0.5em;
+    letter-spacing: 0;
+}
+
+.line4 {
+    margin-top: 3vh;
+    font-size: clamp(1.1rem, 2.2vw, 2.2rem);
+    font-weight: 300;
+}
+
+.line5 {
+    font-size: clamp(1.8rem, 4.2vw, 4.4rem);
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -0.02em;
+}
+
+.line6 {
+    margin-top: 1vh;
+    font-size: clamp(1.1rem, 2vw, 2rem);
+    font-weight: 300;
+}
+
+
+.image-side {
+    align-self: end;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    min-width: 0;
+}
+
+.image-side img {
+    display: block;
+    height: 94vh;
+    height: 94dvh;
+    max-width: 48vw;
+    width: auto;
+    object-fit: contain;
+    object-position: bottom;
+    filter: grayscale(100%) contrast(1.05);
+}
+
+</style>
+</head>
+<body>
+
+<section class="hero">
+
+    <div class="text-side">
+        <div class="line1">ENDORSED BY NOBLE SIX ➔</div>
+        <div class="line2">holyremix.neocities</div>
+        <div class="line3">
+            made by INCODE7
+            <span>with no love for HTML.</span>
+        </div>
+        <div class="line4">a website with no particular use</div>
+        <div class="line5">but, so divine looking</div>
+        <div class="line6">my dark fantasy <b>♡</b></div>
+    </div>
+
+    <div class="image-side">
+        <img src="kanye.png" alt="Kanye">
+    </div>
+
+</section>
+
 </body>
 </html>
