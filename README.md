@@ -1,2 +1,1 @@
-## welcome to oni:swordbase
-idk why i even need a read me.
+theres a whole lotta nothing here
